@@ -5,25 +5,44 @@
 </div>
 <br>
 
-# Lab 3 Data Annotations, Edit, Filtering Data
+# Lab 4 Database Access
 
 ## Purpose - The goal of this assignment is to develop your understanding of:
-- The methods available for filtering data that are part of the Enumerable class
-- Bootstrap to create responsive and professional looking UI
+ - Database creation and access in .NET
+ - The Code first technique for connecting a database and a .NET Project.
+ - Entity Framework
+
+## Outcomes - By creating this assignment, you will be able to:
+ - Create a database using C# code.
+ - Connect the database to your project using Entity Framework.
+ - Run queries on the database using LINQ methods and Entity Framework.
 
 # Instructions
 
-## Task 1: Clone this repository to your local machine and open the included .Net 6 MVC project (10 pts)
- - You notice that you have been provided an Album model located in the Models folder
- - There is also an AlbumList class that is located in the Data folder
- - Dependency Injection has been used with an IAlbumList interface to provide access to the AlbumList class
- - Functioning Endpoints for Index(), Create() and Details() have also been provided.
+## Task 1: Clone this repository to your local machine and open the included .Net 6 MVC project
 
-## Task 2: Modify the Album Model and set the following Data Annotiations: (8pts)
- - Title, Genre, Artist and Price are all required
- - Title should display as Album Name when 
- - Title should be able to store up to 100 characters
- - Price should be a number between 0 and 10,000
+## Task 2:Create the following Models representing an auto repair shop 
+ - Customer.cs
+    - Id
+    - FirstName
+    - LastName
+    - Phone
+- Vehicle.cs
+    - Id
+    - Make
+    - Model
+    - Year
+    - Mileage
+    - VIN
+ - ServicePerformed.cs
+    - Id
+    - TimePerformed
+    - Notes
+ - Technician.cs
+    - Id
+    - FirstName
+    - LastName
+    - EmployeeNumber
 
 ## Task 3: Create an Edit action int eh AlbumController with a GET and a POST (8 pts)
  - On Get take in an Id parameter and return a view with a form for editing the Album
