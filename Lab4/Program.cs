@@ -1,10 +1,7 @@
-using Lab3.Data;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<IAlbumList, AlbumList>();
 
 var app = builder.Build();
 
