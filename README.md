@@ -21,7 +21,7 @@
 
 ## Task 1: Clone this repository to your local machine and open the included .Net 6 MVC project
 
-## Task 2:Create the following Models representing an auto repair shop. Choose the datatypes for the properties that you think would be the best fit.
+## Task 2: Create the following Models representing an auto repair shop. Choose the datatypes for the properties that you think would be the best fit.
  - Customer.cs
     - Id
     - FirstName
