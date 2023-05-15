@@ -21,7 +21,7 @@
 
 ## Task 1: Clone this repository to your local machine and open the included .Net 6 MVC project
 
-## Task 2: Create the following Models representing an auto repair shop. Choose the datatypes for the properties that you think would be the best fit.
+## Task 2: Create the following Models representing an auto repair shop. Choose the datatypes for the properties that you think would be the best fit. (20pts)
  - Customer.cs
     - Id
     - FirstName
@@ -44,7 +44,7 @@
     - LastName
     - EmployeeNumber
 
-## Task 3: Using C# code establish the following relationships between the models (You will need to add more properties to the models beyond of what is listed above to accomplish this)
+## Task 3: Using C# code establish the following relationships between the models (You will need to add more properties to the models beyond of what is listed above to accomplish this) (10pts)
  - A Customer can have many Vehicles.
  - A Vehicle can only have one Customer.
  - A Vehicle can have many Services Performed.
@@ -53,9 +53,9 @@
 
 ## Task 4: Generate the database from these models
 
-## Task 5: Create a CustomerController and implement CRUD functionality with corresponding Views for the Customer table.
+## Task 5: Create a CustomerController and implement CRUD functionality with corresponding Views for the Customer table. (10pts)
 
-## Task 6: Generate a database diagram in SSMS and include a screenshot of the DB diagram with your submission. (Take the screenshot and save it in the folder for the repository before you create your final commit)
+## Task 6: Generate a database diagram in SSMS and include a screenshot of the DB diagram with your submission. (Take the screenshot and save it in the folder for the repository before you create your final commit) (10pts)
 
 ## Task 7: Create a commit with a comment of "Submission for Lab4" and push the changes to the repository.
 
