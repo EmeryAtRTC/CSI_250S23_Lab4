@@ -5,7 +5,7 @@
 </div>
 <br>
 
-# Lab 4 Database Access
+# Lab4 Database Access
 
 ## Purpose - The goal of this assignment is to develop your understanding of:
  - Database creation and access in .NET
